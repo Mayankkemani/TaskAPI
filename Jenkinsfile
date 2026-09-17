@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Mayankkemani/task-api.git'
+                git branch: 'main', url: 'https://github.com/Mayankkemani/TaskAPI.git'
             }
         }
 
