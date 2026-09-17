@@ -56,7 +56,7 @@ git init
 git add .
 git commit -m "Task API - Node + Express + PostgreSQL"
 git branch -M main
-git remote add origin https://github.com/Mayankkemani/task-api.git
+git remote add origin https://github.com/Mayankkemani/TaskAPI.git
 git push -u origin main
 ```
 
@@ -74,7 +74,7 @@ builds and runs `docker compose` directly on the same machine.
 2. **Pipeline** section:
    - Definition: **Pipeline script from SCM**
    - SCM: **Git**
-   - Repository URL: `https://github.com/Mayankkemani/task-api.git`
+   - Repository URL: `https://github.com/Mayankkemani/TaskAPI.git`
    - Branch: `*/main`
    - Script Path: `Jenkinsfile`
 3. **Save**, then **Build Now**
