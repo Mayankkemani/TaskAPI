@@ -98,7 +98,7 @@ Group (same place you opened 80, 8080, 22 before):
 
 Then test from your browser or terminal:
 ```
-http://<your-ec2-ip>:3000/tasks
+   http://43.204.218.83:3000/tasks
 ```
 
 ---
